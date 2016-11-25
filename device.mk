@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     mm-jpeg-interface-test \
     mm-qcamera-app \
-    Snap
+    Camero
 
 # Dalvik/HWUI
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
@@ -72,12 +72,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    HammerheadDoze
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+    #HammerheadDoze
 
 # GPS
 PRODUCT_PACKAGES += \
