@@ -1,8 +1,14 @@
 [
   {
     "repository":  "android_kernel_lge_hammerhead",
-    "target_path": "kernel/lge/hammerheadcaf",
+    "target_path": "kernel/lge/hammerhead",
     "branch":      "cm-14.1-caf",
+	"remote":      "cm"
+  },
+  {
+    "repository":  "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-14.1",
 	"remote":      "cm"
   },
   {
